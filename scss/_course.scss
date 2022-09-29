@@ -1,0 +1,40 @@
+/*課程項目*/
+.course{
+    max-width: 1000px;
+    width: 100%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-around;
+
+    img{
+        margin: auto;
+    }
+
+    h2{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    p,ul{
+        font-size: 16px;
+        text-align: justify;
+        line-height: 1.2em;
+    }
+}
+
+.course-item{
+    width: 30%;
+    background: #fff;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 16%);
+    border-radius: 3px;
+    padding: 18px 24px;
+}
+
+.card-Img{
+    height: 170px;
+    display: flex;
+}
+

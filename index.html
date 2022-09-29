@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 最終作業</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/lightbox.css">
+    
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="bar">
+                <ul>
+                    <li class="facebook">
+                        <a href="#">
+                        <img src="images/icon-facebook.png" alt="facebook">
+                        <span>粉絲團</span>
+                        </a>
+                    </li>
+                    <li class="twitter">
+                        <a href="#">
+                        <img src="images/icon-twitter.png" alt="twitter">
+                        <span>追隨我們</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar">
+                <a class="logo" href="#">Hex School</a>
+                <ul class="menu">
+                    <li><a href="#">首頁</a></li>
+                    <li>
+                        <a href="#" class="dropdown">產品介紹
+                        <i class="fa-solid fa-caret-down"></i>
+                        </a>
+                        
+                        <ul class="dropdownOpen">
+                            <li><a href="#">Html 5基礎教學</a></li>
+                            <li><a href="#">響應式網站設計</a></li>
+                            <li><a href="#">jQuery 實戰教學</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">聯絡我們</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="banner">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                <img src="images/Banner-01.png" alt="Banner-01" class="swiper01">
+                <div><h1>六角學院<br>讓您奠定良好的前端基礎</h1></div>
+                </div>
+                <div class="swiper-slide">
+                <img src="images/Banner-02.png" alt="Banner-02">
+                </div>
+                <div class="swiper-slide">
+                <img src="images/Banner-03.png" alt="Banner-03">
+                </div>
+                <div class="swiper-slide">
+                <img src="images/Banner-04.png" alt="Banner-04">
+                </div>
+                </div>
+	            <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+	            </div>
+            </div>
+
+            <div class="course">
+                <div class="course-item">
+                    <div>
+                        <a class="card-Img" href="images/card01-html5.png" data-lightbox="card-Img01">
+                            <img class="image" src="images/card01-html5.png" alt="image-1" />
+                        </a>
+                    </div>
+                    <h2>Html 5基礎教學</h2>
+                    <p>
+                        主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。
+                    </p>
+                </div>
+                <div class="course-item">
+                    <div>
+                        <a class="card-Img" href="images/card02-responsive.png" data-lightbox="card-Img02">
+                            <img class="image" src="images/card02-responsive.png" alt="image-1" />
+                        </a>
+                    </div>
+                    <h2>響應式網站設計</h2>
+                    <p>
+                        響應式網站設計 (Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。
+                    </p>
+                </div>
+                <div class="course-item">
+                    <div>
+                        <a class="card-Img" href="images/card03-jquery.png" data-lightbox="card-Img03">
+                            <img class="image" src="images/card03-jquery.png" alt="image-1" />
+                        </a>
+                    </div>
+                    <h2>jQuery 實戰教學</h2>
+                    <ul>
+                        <li>本課程有以下特色</li>
+                        <li>．瞭解變數的使用方法</li>
+                        <li>．學習並操作DOM</li>
+                        <li>．學習基本數學運算方法</li>
+                        <li>．套件的操作及運用</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="compare">
+                <h3>線上及實體課程的差異</h3>
+                <table>
+                    <tr>
+                        <th>項目</th>
+                        <th>Hex School 線上課程</th>
+                        <th>一般線上課程</th>
+                        <th>實體課程</th>
+                    </tr>
+                    <tr>
+                        <td>費用</td>
+                        <td class="focus">較低</td>
+                        <td class="focus">較低</td>
+                        <td>較高</td>
+                    </tr>
+                    <tr>
+                        <td>學習效果</td>
+                        <td>一般</td>
+                        <td class="focus">較低</td>
+                        <td class="focus">很好</td>
+                    </tr>
+                    <tr>
+                        <td>Code review</td>
+                        <td class="focus">有</td>
+                        <td>無</td>
+                        <td>不一定</td>
+                    </tr>
+                    <tr>
+                        <td>課程更新速度</td>
+                        <td class="focus">普通</td>
+                        <td class="focus">普通</td>
+                        <td>較慢</td>
+                    </tr>
+                    <tr>
+                        <td>多次複習</td>
+                        <td class="focus">可</td>
+                        <td>可</td>
+                        <td>不可</td>
+                    </tr>
+                    <tr>
+                        <td>字幕</td>
+                        <td class="focus">有</td>
+                        <td>不一定</td>
+                        <td>板書</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="formArea">
+                <form action="index.html">
+                    <h4>對我們課程有興趣嗎？<br>歡迎留下您的資料</h4>
+                    <div class="inputArea">
+                    <input type="text" name="textContent">
+                    <div class="formRight">
+                        <label for="name">姓名</label>
+                        <input type="text" name="name" id="name" placeholder="六角講師">
+                        <label for="tel">電話</label>
+                        <input type="tel" name="tel" id="tel" placeholder="091234567">
+                        <label for="mail">信箱</label>
+                        <input type="email" name="email" id="email" placeholder="hexschool@mail.com">
+                        <button type="submit">送出</button>
+                    </div>
+                    </div>
+                    
+                    
+                </form>
+            </div>
+            
+        </div>
+        
+        <div class="footer">
+            <a href="#">
+                <img src="images/logo-footer.png" alt="logo">
+            </a>
+            <ul>
+                <li>聯絡我們 : <span>hexschool@mail.com</span></li>
+                <li>電話 : <span>099123456</span></li>
+            </ul>
+
+        </div>
+
+        <div class="top">
+            <a href="#">
+                <i class="fa-solid fa-circle-arrow-up fa-4x"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/61d6a1f920.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/all.js"></script>
+</body>
+</html>

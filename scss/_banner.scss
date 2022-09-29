@@ -1,0 +1,38 @@
+
+.content{
+    font-family: Microsoft JhengHei;
+    max-width: 100%;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*banner*/
+.banner{
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background: #222222;
+
+    h1{
+        font-size: 36pt;
+        color: #fff;
+        background: rgba(0, 0, 0, 15%);
+        width: 100%;
+        font-weight: 550;
+        line-height: 48pt;
+        padding: 24px 60px;
+        position: absolute;
+        top: 200px;
+        z-index: 5;
+    }
+    
+}
+
+.swiper01{
+    position: absolute;
+    top: 75px;
+}
+
+:root{
+    --swiper-theme-color: #00cc99 !important;
+}

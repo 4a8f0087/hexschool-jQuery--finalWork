@@ -1,0 +1,35 @@
+/*課程比較表格*/
+.compare{
+    margin: 0 auto;
+
+    h3{
+        font-size: 24pt;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    table{
+        max-width: 840px;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    td,th{
+        border-bottom: 1px solid #dddddd;
+        padding-left: 24px;
+        padding-top: 10px;
+        padding-bottom: 12px;
+    }
+
+    th{
+        font-weight: bold;
+        background: #f7f7f7;
+        text-align: left;
+    }
+}
+
+.focus{
+    color: #00cc99;
+}

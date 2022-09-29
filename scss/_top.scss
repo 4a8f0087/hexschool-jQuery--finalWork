@@ -1,0 +1,16 @@
+
+/*top 按鈕*/
+.top{
+    position: fixed;
+    bottom: 80px;
+    right: 80px;
+    z-index: 10;
+
+    i{
+        color: #00cc99;
+
+        &:hover{
+            color: #009872;
+        }
+    }
+}
